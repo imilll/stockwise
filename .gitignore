@@ -1,0 +1,41 @@
+# ==============================================================================
+# STOCKWISE – .gitignore
+# Mengabaikan file sistem operasi, cache IDE/Editor, dan temporary server logs
+# ==============================================================================
+
+# OS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+nbproject/
+.project
+.settings/
+
+# PHP Server Logs & Temporary Files
+*.log
+error_log
+access_log
+php_errors.log
+*.tmp
+*.cache
+
+# Archives & Exports
+*.zip
+*.tar.gz
+*.rar
+
+# End of .gitignore
